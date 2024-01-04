@@ -60,14 +60,15 @@ def get_arg():
     
     
     # ========path needed =============
-    cfg.add_argument('--project_path',default='path to which you save your code')
+    # cfg.add_argument('--project_path',default='path to which you save your code')
     cfg.add_argument('--data_path',default='path of the dataset, for example:path of ModelNet40-LS folder') # modelnet40
     # =================================
     
     return cfg.parse_args()
 
-cfg=get_arg()
 
+cfg=get_arg()
+cfg.project_path=os.path.dirname(os.path.abspath(__file__))
 
 
 
