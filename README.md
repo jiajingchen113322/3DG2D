@@ -1,7 +1,7 @@
 # Letting 3D Guide the Way: 3D Guided 2D Few-Shot Image Classification (WACV 2024)
 This is official pytorch implementation of WACV 2024 paper 3DG2D paper. 
 
-For more detial,please check our paper [here](https://openaccess.thecvf.com/content/WACV2024/papers/Chen_Letting_3D_Guide_the_Way_3D_Guided_2D_Few-Shot_Image_WACV_2024_paper.pdf). The pipeline of our proposed method is shown below: ![avatar](Img\flow.PNG)
+For more detial,please check our paper [here](https://openaccess.thecvf.com/content/WACV2024/papers/Chen_Letting_3D_Guide_the_Way_3D_Guided_2D_Few-Shot_Image_WACV_2024_paper.pdf). The pipeline of our proposed method is shown below: ![avatar](https://github.com/jiajingchen113322/3DG2D/blob/official/Img/flow.PNG)
 
 ## Quick Learning for Your Convenience
 If you don't want to spend too much time on preparing the data, for your convenience, you could go to **./Model/Img_few_shot_prj.py** directly for quick learning of our method. I prepared a toy example in the main function there. By setting fs=='AINet' in the class *ThreeD_Support_Net*, you use AINet as few-shot head for the prediction. 
